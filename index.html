@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+  </nav>
+
+    <container id="main-content">
+      <h1>Welkom bij mijn Portfolio</h1>
+      <h2 id="main-title">Rani Mortelez</h2>
+      <p id="main-content-text">Lorem ipsum</p>
+      <img src="img/Profile.jpg" alt="Mijn profiel foto">
+    </container>
+
+    <section class="contact" id="contact">
+      <h1>Contact me</h1>
+      <form action="">
+        <label class="name" class="name">Name:
+            <input type="text" id="name">
+        </label>
+        
+        <label class="email" class="email">Email:
+          <input type="email" id="email">
+        </label>
+
+        <label message="message" class="message">Message:
+          <textarea name="" id="message"></textarea>
+        </label>
+        <input class="button form-button" type="submit" value="SEND">
+
+      </form>
+    </section>
+
+    <footer>
+      <p>Follow me on social media</p>
+      <div>
+        <img class="social-icon" src="img/linkedin.svg" alt="linkedin">
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var x = document.getElementById("navbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+</body>
+</html>
